@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenue!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@300&family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0rem 0rem;
+        background-color: burlywood;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+
+      h1 {
+        font-family: "Caveat", "Cursive";
+        font-size: 50px;
+        font-weight: 800;
+        color: brown;
+        text-align: center;
+        text-decoration: magenta;
+        border: 5px solid black;
+        background-color: mediumslateblue;
+        padding: 10px;
+      }
+      .paragraphe1 {
+        font-family:  "Century", "Lucida calligraphy";
+        color: black;
+        font-size: 18px;
+        text-align: center;
+      }
+      .paragraphe2 {
+        font-family: "Century", "Lucida calligraphy";
+        color: black;
+        font-size: 18px;
+        text-align: center;
+      }
+      .paragraphe3 {
+        font-family:  "Century", "Lucida calligraphy";
+        color: black;
+        font-size: 18px;
+        text-align: center;
+      }
+      .paragraphe4 {
+        font-family:  "Century", "Lucida calligraphy";
+        color: black;
+        font-size: 18px;
+        text-align: center;
+      }
+      button {
+        width: 200px;
+        box-shadow: rgb(black, green, blue);
+        display: block;
+        margin: 20px auto;
+        color: palevioletred;
+        font-size: 30px;
+        background: transparent;
+        padding: 15px 15px;
+        border-color: black;
+        border-radius: 54px 54px 54px 54px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><em>L'evolution de l'écriture numérique à l'ère du numérique!!</em></h1>
+    <p class="paragraphe1">
+        De nos jours, l'avènement des réseaux sociaux a révolutionné notre manière de communiquer, 
+        partageons des informations et interagissons avec le monde en général et nos proches en particulier.
+        Encore appelé réseaux sociaux en ligne, les médias sociaux ont créé une toile numérique qui connecte des millions voir 
+        des milliards de personnes à travers le monde formant ainsi une force puissante dans notre société. 
+        Cependant, l’impact des médias sociaux ne se limite pas qu’à l’échelle individuelle, ils influencent également la politique, 
+        la culture et même les évènements mondiaux. Dans cette ère numérique ou l’accès à l’information est instantanée et ou la communication
+        va au-delà des frontières,il est donc essentiel de comprendre la puissance, les avantages et les défis que représentent les médias sociaux. 
+    </p>
+    <div class="milieu">
+    <p class="paragraphe2">
+        A cette ère du numérique, il est impossible de nier la puissance des réseaux sociaux dans la diffusion des idées car ils constituent 
+        à la fois une force redoutable mais également une source de préoccupations majeures dans notre société. Les avantages
+        des réseaux sociaux dans la diffusion des idées sont nombreux parmi lesquels on peut citer la diversité des voix dans la mesure ou
+        les réseaux sociaux ont non seulement favorise la diversification des débats publics mais aussi ont permis de mettre la lumière sur 
+        les problèmes que notre société fait face. Par ailleurs, les plateformes sociales ont également favorisé l’engagement des utilisateurs et 
+        la mobilisation pour les causes sociales par exemple la disparition d’un de nos proches,à l’aide des réseaux sociaux on peut retrouver une personne disparue à travers le partage de ses photos
+    </div>
+    </p>
+    <p class="paragraphe3">
+      <br />
+      Par contre, les réseaux sociaux sont devenus un vecteur majeur de la désinformation à travers la propagation des fausses nouvelles 
+      ce qui ne nous aide pas à différencier le vrai du faux. Aussi, ils favorisent la manipulation de l’opinion publique, l’influence lors 
+      des élections et la propagation des discours haineux par des personnes malveillantes. 
+      Pour finir, la surveillance de la vie privée sur réseaux sociaux à travers la collecte d’énorme quantités de données personnelles.
+    </p>
+    <p class="paragraphe4">
+        En somme, la puissance des réseaux sociaux dans la diffusion des idées a permis la liberté d’expression et de mobilisation mais 
+        comporte également des risques importants en termes de désinformation, de polarisation et d’impact sur la santé mentale. 
+        Il est donc de nous de notre responsabilité de les utiliser à bon escient. 
+    </p>
+    <img
+      src="c:\Users\hp\Desktop\f5b59141-251a-4020-9997-fd2c98cfe9f6.jpg"
+      alt="Image générée à partir de l’IA"
+      style= "
+        width: 500px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      "
+    />
+    <button id="Bouton">Cliquez</button>
+    <hr />
+    <script>
+      function afficherMessage() {
+        alert("Vous avez cliqué sur le bouton!");
+        let nom = prompt("Quel est ton prenom?")
+        alert("Bonjour" + nom + "!");
+        let bouton = document.querySelector("#Bouton");
+        bouton.addEventListener("click", afficherMessage);
+      }
+      prompt("Quel age as tu ?");
+      prompt("Quel est ton programme ? ");
+      prompt("Quel est ton lieu de residence?");
+    </script>
+  </body>
+</html>
